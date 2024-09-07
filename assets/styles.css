@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.background {
+    background-image: linear-gradient(45deg,black, rgb(75, 232, 232));
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+
+.calc-structure {
+    position: absolute;
+    background-color: rgba(0,0,0,0.75);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.button-calc {
+    background-color: rgb(51, 51, 51);
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    margin: 1.5px;
+}
+
+.button-calc:hover {
+    background-color: rgb(41, 41, 41);
+}
+
+#resultado-contas {
+    background-color: #fff;
+    width: 210px;
+    height: 30px;
+    margin: 5px;
+    padding: 1.5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+}
